@@ -1,0 +1,11 @@
+%% -*- erlang -*-
+
+{application, fbi_common, [
+    {description, "FBI common utilities app"},
+    {vsn, "0.0.1"},
+    {registered, []},
+    {applications, [
+        lager
+    ]},
+    {env, []}
+]}.
